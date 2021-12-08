@@ -1,11 +1,10 @@
-import Head from 'next/head'
-
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className={styles.main}>
+      <h1 className={styles.title}><span>News</span> App</h1>
+      <p className={styles.description}>Your one stop for latest news article.</p>
+    </div>
   )
 }
